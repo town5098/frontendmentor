@@ -1,0 +1,118 @@
+/** GENERAL SETTINGS CSS **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body,
+html {
+  font-family: "Red Hat Display", sans-serif;
+}
+h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin: 2.4rem 0 0.96rem 0;
+}
+h2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  color: hsl(224, 23%, 55%);
+}
+p,
+a,
+span {
+  font-size: 1.6rem;
+}
+span,
+a {
+  display: block;
+}
+a {
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+/** BACKGROUND CSS **/
+.body-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** ORDER SUMMARY CSS **/
+
+.summary-card {
+  background: white;
+  height: 60rem;
+  max-width: 45rem;
+  box-shadow: 0 1.5rem 3rem hsla(230, 75%, 52%, .25);
+  text-align: center;
+
+  border-radius: calc(20px);
+}
+.illustration {
+  border-radius: calc(20px) calc(20px) 0 0;
+}
+.descrip {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 2.4rem;
+}
+
+.plan-details {
+  background: hsl(225, 100%, 98%);
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.96rem;
+  border-radius: calc(1rem);
+}
+
+.plan-details p {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+.plan-details span{
+  font-weight: 200;
+  margin-top: .5rem;
+}
+.plan-details a {
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.plan-details a:hover {
+  text-decoration: none;
+  opacity: 0.75;
+}
+.proceed-btn {
+  text-decoration: none;
+  width: 80%;
+  font-weight: 700;
+  padding: 1.4rem;
+  color: white;
+  background: #382ae1;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1.5rem hsla(245, 75%, 52%, .25);
+  margin: 3rem auto;
+}
+.cancel-btn {
+  text-decoration: none;
+  color: black;
+  margin: 3rem;
+  
+}
